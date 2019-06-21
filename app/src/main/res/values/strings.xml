@@ -1,0 +1,486 @@
+<!--<resources>
+    <string name="app_name" translatable="false">B-TRADE</string>
+    <string name="name" translatable="false">SameCiti - Customer</string>
+    <string name="currency" translatable="false">\u20B9</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="txtCredits" translatable="false"><a href="http://www.google.com">Google</a></string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="nav_terms" translatable="false">Terms &amp; Privacy</string>
+    <string name="offer" translatable="false">Offer</string>
+    <string name="start_time" translatable="false">Start Time :</string>
+    <string name="end_time" translatable="false">End Time :</string>
+    <string name="wallet" translatable="false">Wallet Used</string>
+    <string name="coupon_used" translatable="false">Coupon Used</string>
+    <string name="apply" translatable="false">Apply</string>-->
+    <!-- string.xml -->
+    <!--<string name="nav_home" translatable="false">Shop Now</string>
+    <string name="nav_chat" translatable="false">Chat With Us</string>
+    <string name="nav_user" translatable="false">User</string>
+    <string name="nav_order" translatable="false">My Orders</string>
+    <string name="nav_profile" translatable="false">My Profile</string>
+    <string name="nav_support" translatable="false">Support</string>
+    <string name="nav_about" translatable="false">About Us</string>
+    <string name="failed" translatable="false">Sorry,Your Payment Has Failed</string>
+    <string name="again" translatable="false">Please Try Again</string>
+    <string name="retry" translatable="false">Retry Order</string>
+    <string name="nav_review" translatable="false">Review Us</string>
+    <string name="nav_contact" translatable="false">Contact Us</string>
+    <string name="nav_share" translatable="false">Share with Friends</string>
+    <string name="nav_logout" translatable="false">Logout</string>
+    <string name="btn_continue" translatable="false">Continue</string>
+    <string name="btn_Register" translatable="false">Register</string>
+    <string name="rewards_points" translatable="false">Rewards Points</string>
+    <string name="rech_wallet" translatable="false">Recharge Wallet</string>
+    <string name="continue_bt" translatable="false">Continue</string>
+    <string name="wall_am" translatable="false">My Wallet Amount</string>
+    activity_login.xml
+    <string name="et_login_phone_hint" translatable="false">Mobile Number</string>
+    <string name="tv_login_email" translatable="false">Email</string>
+    <string name="tv_login_password" translatable="false">Password</string>
+    <string name="btn_login" translatable="false">Login</string>
+    <string name="btn_send" translatable="false">Send</string>
+    <string name="tv_login_note" translatable="false">Before continue with application you must verify your mobile number. Our system will sent you OTP code on registered mobile number</string>
+
+    activity_register.xml
+    <string name="tv_reg" translatable="false">Register</string>
+    <string name="tv_reg_name_hint">Name</string>
+    <string name="tv_reg_pincode">Pincode/Area Code/Zip</string>
+    <string name="tv_reg_socity">Society/Flat</string>
+    <string name="order_amount" translatable="false">Order Amount</string>
+    <string name="btn_reg_socity_choose">Choose Society...</string>
+    <string name="tv_reg_house">House Number</string>
+    <string name="amount_pa" translatable="false">Amount Payable</string>
+    <string name="add_del" translatable="false">Add delivery address</string>
+    <string name="btn_reg_update">Update Profile</string>
+    <string name="et_reg_search">Search Society...</string>
+    <string name="et_sea" translatable="false">Search Society..</string>
+    <string name="total" translatable="false">Total :</string>
+    <string name="tv_reg_note">Note : service available for RAJKOT only</string>
+    <string name="tv_reg_address">Address(Required)</string>
+    <string name="et_reg_address">Complete Address</string>
+    <string name="use" translatable="false">Use</string>
+    <string name="store" translatable="false">Store Pick Up</string>
+    <string name="confirm_order" translatable="false">Confirm</string>
+    <string name="pickup" translatable="false">PickUp / COD</string>
+    <string name="cash" translatable="false">Cash On Delivery</string>
+    fragment_cart.xml
+    <string name="tv_cart_title">Cart</string>
+    <string name="debit" translatable="false">Debit / Credit Card</string>
+    <string name="net" translatable="false">Net Banking</string>
+    <string name="card" translatable="false">Cards</string>
+    <string name="promo" translatable="false">Promo Code</string>
+    <string name="tv_cart_clear">Clear All Product</string>
+    <string name="tv_cart_checkout">Continue Checkout</string>
+    <string name="tv_cart_total">Total:\u0020</string>
+    <string name="tv_cart_item">Items:\u0020</string>
+    <string name="tv_cart_rs">\u0020Rs</string>
+    <string name="coupon" translatable="false">Coupon</string>
+    <string name="sure_del" translatable="false">Are you sure!
+    you want to delete all cart product</string>
+    fragment_delivery_time.xml
+    <string name="tv_del_title">Delivery Date/Time</string>
+    <string name="tv_del_address">Delivery Address</string>
+    <string name="et_del_address_hint">Enter Delivery address..</string>
+    <string name="tv_del_continue">Continue With Time</string>
+    <string name="tv_del_date">Select delivery date</string>
+    <string name="tv_del_time">Select delivery time</string>
+    <string name="tv_del_date_time">Delivery Data/Time</string>
+    <string name="tv_total_item_amount">Total Items And Amount</string>
+    <string name="tv_total_total">Total Amount </string>
+
+    fragment_home.xml
+    <string name="tv_home_cat">Products</string>
+    <string name="tv_home_view">View all ></string>
+    <string name="checkout" translatable="false">Checkout</string>
+     fragment_Wallet.xml
+    <string name="tv_app_name">Wallet</string>
+    <string name="tv_product_name" translatable="false">Products</string>
+    <string name="selling_product" translatable="false">Top Selling Products</string>
+    <string name="deals" translatable="false">Deals of the Day</string>
+    <string name="view_all" translatable="false">View All</string>
+    <string name="sponsered" translatable="false">Sponsored</string>
+    <string name="shop_by_category" translatable="false">Shop By Category</string>
+    <string name="shop_now" translatable="false">Shop Now</string>
+    <string name="feature" translatable="false">Featured Brand</string>
+    <string name="condition" translatable="false">Condition</string>
+     fragment_Reward.xml
+    <string name="tv_toolbar_name" translatable="false">Rewards</string>
+     row_product_rv.xml
+    <string name="tv_pro_add">Add</string>
+    <string name="tv_pro_update">Update</string>
+    <string name="tv_pro_price">Price per\u0020</string>
+
+    <string name="tv_toolbar_price" translatable="false">Price :</string>
+    <string name="tv_toolbar_redeem" translatable="false">Redeem</string>
+    <string name="tv_out" translatable="false">Out of Stock</string>
+    <string name="tv_rech" translatable="false">Enter Wallet Amount</string>
+    <string name="tv_rech_wall" translatable="false">Recharge</string>
+    <string name="tv_mywall" translatable="false">Recharge Wallet</string>
+
+    <string name="tv_pro_rs">\u0020Rs.\u0020</string>
+    <string name="tv_pro_total">Total: </string>
+
+    fragment_confirm_order.xml
+    <string name="tv_conf_order_title">Payment Details</string>
+
+    fragment_my_order_detail.xml
+    <string name="tv_order_cancle">Cancel Order</string>
+    <string name="tv_order_summery">Summary</string>
+    <string name="tv_order_total">Total: Rs.</string>
+    <string name="tv_order_qty">Qty</string>
+    <string name="tv_order_rs">Rs.</string>
+    fragment_order_thanks.xml
+    <string name="tv_thanks_title" translatable="false">Thank you for your order.</string>
+    <string name="tv_thanks_home" translatable="false">Continue home</string>
+    <string name="tv_thanks_order" translatable="false">Track my order</string>
+    <string name="thanks" translatable="false">Thanks Order</string>
+    <string name="paytm" translatable="false">Paytm</string>
+    Forgot password
+    <string name="forgot">Forgot Password ?</string>
+
+    Code message and concat  string
+    <string name="my_order" translatable="false">My Order</string>
+    <string name="edit_profile" translatable="false">Edit Profile</string>
+    <string name="delivery" translatable="false">Delivery</string>
+    <string name="delivery_date" translatable="false">"Delivery Date: </string>
+    <string name="please_select_date" translatable="false">Please select date</string>
+    <string name="no_rcord_found" translatable="false">No record found</string>
+    <string name="connection_time_out" translatable="false">Connection Time out</string>
+    <string name="add_delivery_address" translatable="false">Add Delivery Address</string>
+    <string name="order_now" translatable="false">Order Now</string>
+    <string name="payment_detail" translatable="false">Payment Details</string>
+    <string name="delivery_time" translatable="false">Delivery time</string>
+    <string name="please_enter_pincode" translatable="false">Please enter pincode</string>
+    <string name="receiver_mobile_number" translatable="false">Receiver Mobile Number(Required)</string>
+    <string name="receiver_name_req" translatable="false">Receiver Name(Required)</string>
+    <string name="phone_too_short" translatable="false">Phone Too short</string>
+    <string name="please_add_address">Please add address</string>
+    <string name="pay" translatable="false">Payment</string>
+    <string name="please_select_address">Please select address</string>
+    <string name="please_select_date_time">Please select date and time</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="uploading_profile_data">Uploading profile data</string>
+    <string name="cancle_order_note">Are you sure!\nyou want to cancle order ?</string>
+    <string name="no">No</string>
+    <string name="order_id" translatable="false">Order Id</string>
+    <string name="order_detail" translatable="false">Order Detail</string>
+    <string name="yes">Yes</string>
+    <string name="id" translatable="false">ID</string>
+    <string name="order_mode" translatable="false">Order Mode</string>
+    <string name="tracking_st" translatable="false">Tracking Status On</string>
+    <string name="tt_t" translatable="false">Total Items</string>
+    <string name="thank_you">Thank you</string>
+    <string name="date_d" translatable="false">Date:</string>
+    <string name="time_t" translatable="false">Time:</string>
+    <string name="place_on" translatable="false">Placed On:</string>
+    <string name="payment" translatable="false">Payment</string>
+    <string name="contact" translatable="false">اتصل بنا</string>
+    <string name="order_fail" translatable="false">Order Fail</string>
+    <string name="cart_em" translatable="false">Your Cart is empty!</string>
+    <string name="cart" translatable="false">Cart</string>
+    <string name="add_cart" translatable="false">Add items to it now</string>
+    <string name="password_too_short">Password Too short</string>
+    <string name="invalide_email_address" translatable="false">Invalide Email Address</string>
+    <string name="no_internet" translatable="false">Sorry! Not connected to internet</string>
+    <string name="order_no" translatable="false">Order No.:\u0020</string>
+    <string name="pending" translatable="false">Pending</string>
+    <string name="confirm" translatable="false">Confirm</string>
+    <string name="delivered" translatable="false">Delivered</string>
+    <string name="outfordeliverd" translatable="false">Out for Delivered\nReady to pickup</string>
+    <string name="cancle" translatable="false">Cancel</string>
+    <string name="date">Date:\u0020</string>
+    <string name="time">Time:\u0020</string>
+   Method String
+    <string name="method_one">PickUP</string>
+    <string name="method_two">COD</string>
+    <string name="method_three">Cards</string>
+    <string name="method_four">NetBanking</string>
+    <string name="past" translatable="false">Past Order</string>
+    <string name="add" translatable="false">Address</string>
+    <string name="searchh" translatable="false">Search</string>
+    <string name="search_msg" translatable="false">Search Vegetables, Fruit etc</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password (Required)</string>
+    <string name="new_password">New Password (Required)</string>
+    <string name="confirm_password">Confirm Password (Required)</string>
+    <string name="password_not_same">Confirm Password and New Password not same.</string>
+    <string name="delivery_charge" translatable="false">Delivery Charges.:\u0020</string>
+    <string name="amount" translatable="false">Amount:\u0020</string>
+    <string name="search_here">Search here...</string>
+    <string name="total_amount">Total Amount:\u0020</string>
+    <string name="search">Search</string>
+    <string name="enter_keyword">Please Enter Keyword</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="description">Description:</string>
+
+    row_delivery_time.xml
+    <string name="tv_deli_socity">Society:</string>
+    <string name="tv_deli_mobile">Mobile No.:</string>
+    <string name="tv_deli_pin">Pincode:</string>
+
+     delivery_payment_detail_fragment.java
+    <string name="tv_deli_pay_ontime">On time :\u0020</string>
+    <string name="tv_deli_pay_address">Address:\u0020</string>
+
+     delivery_get_address_adapter.java
+    <string name="reciver_name">Receiver Name:\u0020</string>
+    <string name="reciver_mobile">Receiver Mobile No.:\u0020</string>
+    <string name="pincode">Pincode:\u0020</string>
+    <string name="house_no">House No.:\u0020</string>
+    <string name="socity">Society:\u0020</string>
+
+        <string name="status_stop">Powered By <font color="#f7941e">GoGrocer</font></string>
+
+    <string name="search_text">Buscar productos, marcas y más</string>
+
+    <string name="h_orders">Ordenes</string>
+    <string name="h_rewards">Recompensas</string>
+    <string name="h_wallet">Billetera</string>
+    <string name="h_cart">Carro</string>
+
+    <string name="language">Idioma</string>
+
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="home_fragement_bottom">Agrega $150,000 y gana <font color='#ff0000'>domicilio gratis.</font></string>
+</resources>-->
+<resources>
+<string name="app_name" translatable="false">B-TRADE</string>
+<string name="name" translatable="false">Клиентская версия</string>
+<string name="currency" translatable="false">%1$s сом</string>
+<string name="title_activity_main" translatable="false">MainActivity</string>
+<string name="txtCredits" translatable="false"><a href="http://www.google.com">Google</a></string>
+
+<string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+<string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+<string name="action_settings" translatable="false"> Настройки</string>
+
+<string name="nav_terms" translatable="false">Условия&amp;Конфиденциальность</string>
+<string name="offer" translatable="false">Предложения</string>
+<string name="start_time" translatable="false">Начало:</string>
+<string name="end_time" translatable="false">Конец:</string>
+<string name="wallet" translatable="false">Консигнация</string>
+<string name="coupon_used" translatable="false">Купон</string>
+<string name="apply" translatable="false">Применить</string>
+<!-- string.xml -->
+<string name="nav_home" translatable="false">Категории</string>
+<string name="nav_chat" translatable="false">Связаться с нами</string>
+<string name="nav_user" translatable="false">Пользователи</string>
+<string name="nav_order" translatable="false">Мои покупки</string>
+<string name="nav_profile" translatable="false">Мой профиль</string>
+<string name="nav_support" translatable="false">Поддержка</string>
+<string name="nav_about" translatable="false">О нас</string>
+<string name="failed" translatable="false">Извините, ваш платеж не прошел</string>
+<string name="again" translatable="false">Пожалуйста, попробуйте снова</string>
+<string name="retry" translatable="false">Повторить заказ</string>
+<string name="nav_review" translatable="false">Оцените нас</string>
+<string name="nav_contact" translatable="false">Связаться с нами</string>
+<string name="nav_share" translatable="false">Поделиться с друзьями</string>
+<string name="nav_logout" translatable="false">Выйти</string>
+<string name="btn_continue" translatable="false">Продолжить</string>
+<string name="btn_Register" translatable="false">Регистрация</string>
+<string name="rewards_points" translatable="false">"Конс: "</string>
+<string name="rech_wallet" translatable="false">Оплатить</string>
+<string name="continue_bt" translatable="false">Продолжить</string>
+<string name="wall_am" translatable="false">Доступная консигнация</string>
+<!-- activity_login.xml -->
+<string name="et_login_phone_hint" translatable="false">Телефон</string>
+<string name="tv_login_email" translatable="false">Email</string>
+<string name="tv_login_password" translatable="false">Пароль</string>
+<string name="btn_login" translatable="false">Войти</string>
+<string name="btn_send" translatable="false">Отправить</string>
+<string name="tv_login_note" translatable="false">Прежде чем продолжить с заявкой, вы должны подтвердить свой номер мобильного телефона. Наша система отправит вам OTP-код на зарегистрированный номер мобильного телефона</string>
+
+<!-- activity_register.xml -->
+<string name="tv_reg" translatable="false">Регистрация</string>
+<string name="tv_reg_name_hint">Имя</string>
+<string name="tv_reg_pincode">Индекс</string>
+<string name="tv_reg_socity">Район/Квартира</string>
+<string name="order_amount" translatable="false">Сумма заказа</string>
+<string name="btn_reg_socity_choose">Выбрать район</string>
+<string name="tv_reg_house">Номер дома</string>
+<string name="amount_pa" translatable="false">Сумма к оплате</string>
+<string name="add_del" translatable="false">Добавить адрес доставки</string>
+<string name="btn_reg_update">Обновить профиль</string>
+<string name="et_reg_search">Искать район</string>
+<string name="et_sea" translatable="false">Искать район..</string>
+<string name="tv_reg_note">Примечание: услуга доступна только для зарегистрированных пользователей</string>
+<string name="tv_reg_address">Адрес(обязательно)</string>
+<string name="et_reg_address">Полный адрес</string>
+<string name="use" translatable="false">Использовать</string>
+<string name="store" translatable="false">Самовывоз</string>
+<string name="confirm_order" translatable="false">Подтвердить</string>
+<string name="pickup" translatable="false">Самовывоз/Оплата при доставке</string>
+<string name="cash" translatable="false">Оплатить при доставке</string>
+<!-- fragment_cart.xml -->
+<string name="tv_cart_title">Корзина</string>
+<string name="debit" translatable="false">Debit / Credit карты</string>
+<string name="net" translatable="false">Интернет-банкинг</string>
+<string name="card" translatable="false">Платежные карты</string>
+<string name="promo" translatable="false">Промо-коды</string>
+<string name="tv_cart_clear">Очистить всю Корзину</string>
+<string name="tv_cart_checkout">Продолжить оформление заказа</string>
+<string name="tv_cart_item">Товаров:\u0020</string>
+<string name="tv_cart_rs">\u0020 сом</string>
+<string name="coupon" translatable="false">Купон</string>
+<string name="sure_del" translatable="false">Вы уверены, что хотите удалить все товары из корзины?</string>
+<!-- fragment_delivery_time.xml -->
+<string name="tv_del_title">Дата/Время доставки</string>
+<string name="tv_del_address">Адресс доставки</string>
+<string name="et_del_address_hint">Введите адрес доставки..</string>
+<string name="tv_del_continue">Продолжить оформление</string>
+<string name="tv_del_date">Выберите дату доставки</string>
+<string name="tv_del_time">Выберите время доставки</string>
+<string name="tv_del_date_time">Дата/Время доставки</string>
+<string name="tv_total_item_amount">Всего товаров:</string>
+
+<!-- fragment_home.xml -->
+<string name="tv_home_cat">Товары</string>
+<string name="tv_home_view">Посмотреть все</string>
+<string name="checkout" translatable="false">Проверить</string>
+<!-- fragment_Wallet.xml -->
+<string name="tv_app_name">Кошелек</string>
+<string name="tv_product_name" translatable="false">Товары</string>
+<string name="selling_product" translatable="false">Популярные товары</string>
+<string name="deals" translatable="false">Акции</string>
+<string name="view_all" translatable="false">См.все</string>
+<string name="sponsered" translatable="false">Реклама</string>
+<string name="shop_by_category" translatable="false">Товары по категориям</string>
+<string name="shop_now" translatable="false">Продолжить</string>
+<string name="feature" translatable="false">Рекомендуемые марки</string>
+<string name="condition" translatable="false">Условие</string>
+<!-- fragment_Reward.xml -->
+<string name="tv_toolbar_name" translatable="false">Поставщики</string>
+<!-- row_product_rv.xml -->
+<string name="tv_pro_add">Добавить</string>
+<string name="tv_pro_update">Обновить</string>
+<string name="tv_pro_price">Цена за\u0020</string>
+
+<string name="tv_toolbar_price" translatable="false">"Цена: "</string>
+<string name="tv_toolbar_redeem" translatable="false">Выкупить</string>
+<string name="tv_out" translatable="false">Нет в наличии</string>
+<string name="tv_rech" translatable="false">Введите сумму консигнации</string>
+<string name="tv_rech_wall" translatable="false">Подтвердить</string>
+<string name="tv_mywall" translatable="false">Потвердить платеж</string>
+
+<string name="tv_pro_rs">\u0020 сом.\u0020</string>
+
+<!-- fragment_confirm_order.xml -->
+<string name="tv_conf_order_title">Детали платежа</string>
+
+<!-- fragment_my_order_detail.xml -->
+<string name="tv_order_cancle">Отменить заказ</string>
+<string name="tv_order_summery">Суммарно</string>
+<string name="total">"Итого: "</string>
+<string name="tv_order_qty">Кол</string>
+<string name="tv_order_rs">%1$s сом</string>
+<!-- fragment_order_thanks.xml -->
+<string name="tv_thanks_title" translatable="false">Спасибо за ваш заказ.</string>
+<string name="tv_thanks_home" translatable="false">Перейти на Главную</string>
+<string name="tv_thanks_order" translatable="false">Отследить мой заказ</string>
+<string name="thanks" translatable="false">Спасибо заказ</string>
+<string name="paytm" translatable="false">Paytm</string>
+<!-- Forgot password -->
+<string name="forgot">Забыли пароль?</string>
+
+<!-- Code message and concat  string -->
+<string name="my_order" translatable="false">Мои заказы</string>
+<string name="edit_profile" translatable="false">Редактировать профиль</string>
+<string name="delivery" translatable="false">Доставка</string>
+<string name="delivery_date" translatable="false">Дата доставки: </string>
+<string name="please_select_date" translatable="false">Пожалуйста, выберите дату</string>
+<string name="no_rcord_found" translatable="false">Запись не найдена</string>
+<string name="connection_time_out" translatable="false">Время соединения вышло</string>
+<string name="add_delivery_address" translatable="false">Добавить адрес доставки</string>
+<string name="order_now" translatable="false">Категории</string>
+<string name="payment_detail" translatable="false">Детали платежа</string>
+<string name="delivery_time" translatable="false">Время доставки</string>
+<string name="please_enter_pincode" translatable="false">Пожалуйста, введите ИНДЕКС</string>
+<string name="receiver_mobile_number" translatable="false">Номер телефона получателя(обязательно)</string>
+<string name="receiver_name_req" translatable="false">Имя получателя(обязательно)</string>
+<string name="phone_too_short" translatable="false">Телефон слишком короткий</string>
+<string name="please_add_address">Пожалуйста, добавьте адрес</string>
+<string name="pay" translatable="false">Оплата</string>
+<string name="please_select_address">Пожалуйста, выберите адрес</string>
+<string name="please_select_date_time">Пожалуйста, выберите дату и время</string>
+<string name="profile_updated">Профиль обновлен</string>
+<string name="uploading_profile_data">Загрузка данных профиля</string>
+<string name="cancle_order_note">Вы уверены, что хотите отменить заказ?</string>
+<string name="no">Нет</string>
+<string name="order_id" translatable="false">Номер заказа</string>
+<string name="order_detail" translatable="false">Детали заказа</string>
+<string name="yes">YДа</string>
+<string name="id" translatable="false">Номер</string>
+<string name="order_mode" translatable="false">Режим заказа</string>
+<string name="tracking_st" translatable="false">Статус отслеживания включен</string>
+<string name="tt_t" translatable="false">Всего товаров</string>
+<string name="thank_you">Спасибо</string>
+<string name="date_d" translatable="false">Дата:</string>
+<string name="time_t" translatable="false">Время:</string>
+<string name="place_on" translatable="false">Размещены на:</string>
+<string name="payment" translatable="false">Платеж</string>
+<string name="contact" translatable="false">Тест</string>
+<string name="order_fail" translatable="false">Ошибка заказа</string>
+<string name="cart_em" translatable="false">Ваша корзина пуста!</string>
+<string name="cart" translatable="false">Корзина</string>
+<string name="add_cart" translatable="false">Добавить товары сейчас</string>
+<string name="password_too_short">Слишком короткий пароль</string>
+<string name="invalide_email_address" translatable="false">Неверный адрес электронной почты</string>
+<string name="no_internet" translatable="false">Сожалеем! Не подключен к интернету</string>
+<string name="order_no" translatable="false">Заказ №.:\u0020</string>
+<string name="pending" translatable="false">В ожидании</string>
+<string name="confirm" translatable="false">Подтверждение</string>
+<string name="confirmed" translatable="false">Подтверждено</string>
+<string name="delivered" translatable="false">Доставлен</string>
+<string name="outfordeliverd" translatable="false">Готов к отправке\nГотов к самовывозу</string>
+<string name="cancle" translatable="false">Отмена</string>
+<string name="date">Дата:\u0020</string>
+<string name="time">Время:\u0020</string>
+<!--Method String-->
+<string name="method_one">Самовывоз</string>
+<string name="method_two">Оплата при доставке</string>
+<string name="method_three">Платежные карты</string>
+<string name="method_four">Интернет-банкинг</string>
+<string name="past" translatable="false">Прошлые заказы</string>
+<string name="add" translatable="false">Адрес</string>
+<string name="searchh" translatable="false">Поиск</string>
+<string name="search_msg" translatable="false">Поиск овощей, фруктов и т.д.</string>
+<string name="change_password">Изменить пароль</string>
+<string name="old_password">Старый пароль (обязательно)</string>
+<string name="new_password">Новый пароль (обязательно)</string>
+<string name="confirm_password">Подтвердите пароль (обязательно)</string>
+<string name="password_not_same">Подтвердите пароль и новый пароль не совпадают.</string>
+<string name="delivery_charge" translatable="false">Расходы за доставку.:\u0020</string>
+<string name="amount" translatable="false">Количество:\u0020</string>
+<string name="search_here">Искать здесь</string>
+<string name="total_amount">Общее количество:\u0020</string>
+<string name="search">Поиск</string>
+<string name="enter_keyword">Пожалуйста, введите ключевое слово</string>
+<string name="delete">Удалить</string>
+<string name="edit">Редактировать</string>
+<string name="description">Описание:</string>
+
+<!-- row_delivery_time.xml -->
+<string name="tv_deli_socity">Район:</string>
+<string name="tv_deli_mobile">Телефон:</string>
+<string name="tv_deli_pin">ИНДЕКС:</string>
+
+<!-- delivery_payment_detail_fragment.java -->
+<string name="tv_deli_pay_ontime">В срок :\u0020</string>
+<string name="tv_deli_pay_address">Адрес:\u0020</string>
+
+<!-- delivery_get_address_adapter.java -->
+<string name="reciver_name">Имя получателя:\u0020</string>
+<string name="reciver_mobile">Телефон получателя:\u0020</string>
+<string name="pincode">ИНДЕКС:\u0020</string>
+<string name="house_no">Номер дома:\u0020</string>
+<string name="socity">Район:\u0020</string>
+
+<string name="status_stop">Разработан <font color="#f7941e">Next Innovation</font></string>
+</resources>
